@@ -22,13 +22,7 @@ const Layout = ({ children }) => (
         {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
         <Sider/>
         <div
-          style={{
-            margin: '20px auto',
-            marginLeft: '350px',
-            maxWidth: 1920,
-            padding: '0px 1.0875rem 1.45rem',
-            paddingTop: 0,
-          }}
+          className="content"
         >
           {children}
         </div>
