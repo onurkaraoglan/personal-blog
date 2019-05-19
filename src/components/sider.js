@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import styled from 'styled-components';
 import { Icon } from 'antd';
 
-const logo = require( "../images/gatsby-icon.png");
+const logo = require( "../images/logo.png");
 
 const StyledLink = styled(Link)`
 font-size: 20px !important;
@@ -25,14 +25,14 @@ function myFunction() {
 
 const Sider = () => (
     <div id="mySidebar" className="sidebar">
-     <Link to="/" style= {{ marginBottom: -20}}> <img class="sidelogo" src={logo} alt="Onur Karaoğlan" style= {{maxWidth:50, marginLeft: 30}}/> </Link>
+     <Link to="/" style= {{ marginBottom: -20}}> <img class="sidelogo" src={logo} alt="Onur Karaoğlan"/> </Link>
      <a href class="toggle" onClick={myFunction}>
         <Icon type="menu" />
       </a>
      <StyledLink to="/about">About</StyledLink>
      <StyledLink to="/snippet">Code Snippets</StyledLink>
      <StyledLink to="/blog">Blog</StyledLink>
-     <StyledLink to="/usage">What I Use?</StyledLink>
+     <StyledLink to="/recommendations">Recommendations</StyledLink>
      <StyledLink to="/contact">Contact</StyledLink>
     </div>
   )

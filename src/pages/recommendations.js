@@ -2,12 +2,11 @@ import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
-const Usage = () => (
+const Recommendations = () => (
   <Layout>
-    <SEO title="Usage" />
-    <h1>What I Use?</h1>
-    <p>Welcome to page 2</p>
+    <SEO title="Recommendations" />
+    <h1>Recommendations</h1>
   </Layout>
 )
 
-export default Usage
+export default Recommendations
