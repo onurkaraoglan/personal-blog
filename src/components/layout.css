@@ -169,7 +169,7 @@ div.body {width: 70% !important}
   .sidelogo {
     max-width: 50px;
   }
-  div.content {margin-left: 0 !important;}
+  div.content {margin-left: 0 !important;margin-right: 0 !important;}
   .footer {margin-left: 0 !important;}
 
   div.body {width: 85% !important}
@@ -204,7 +204,8 @@ div.body {width: 70% !important}
 }
  
 div.content {
-  margin-left: 300px;
+  margin-left: 275px;
+  margin-right: 25px;
   padding: 1px 16px;
   min-height: 100vh;
 }
