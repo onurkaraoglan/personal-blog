@@ -27,7 +27,7 @@ p {
 }
 
 div.job {
-  border-bottom-color: #71ff9a;
+  border: 0;
   border-bottom-style: solid;
   border-bottom-width: 20px;
   text-align: center;
