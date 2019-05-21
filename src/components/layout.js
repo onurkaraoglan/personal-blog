@@ -2,9 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 
-// import Header from './header'
-import Sider from './sider'
+import Sider from './layout/sider'
 import './layout.css'
+import Footer from './layout/footer';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -24,7 +24,7 @@ const Layout = ({ children }) => (
         <div className="content">
           {children}
         </div>
-        <footer className="footer">Footer</footer>
+        <Footer/>
       </>
     )}
   />

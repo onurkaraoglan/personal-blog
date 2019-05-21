@@ -1,8 +1,8 @@
 import React from 'react'
 import Layout from '../components/layout'
-import MeImg from '../components/me'
 import SEO from '../components/seo'
 import { Link } from 'gatsby'
+import MeImg from '../components/me';
 
 const About = () => (
   <Layout>
@@ -13,7 +13,7 @@ const About = () => (
         I love to learn and discover all things about Web Development. 
         You can catch my code snippets on Twitter and Linkedin.
         <div style={{maxWidth:250, display: "block", margin: "20px auto"}}>
-          <MeImg />
+          <MeImg/>
         </div>
       </p>
       <p>
