@@ -33,11 +33,6 @@ const Footer = () => (
             <Icon className="footericon" type="instagram" style={{ fontSize: '20px', color: '#ccc' }} />
           </a>
         </li>
-        <li className="footerli">
-          <a href="https://www.facebook.com/onur.karaoglan.52" target="_blank" rel="noopener noreferrer">
-            <Icon className="footericon" type="facebook" style={{ fontSize: '20px', color: '#ccc' }} theme="filled" />
-          </a>
-        </li>
       </ul>
     </div>
     <div >

@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components';
 import { Icon } from 'antd';
+import './sider.css'
 
 const logo = require("../../images/logo.png");
 
