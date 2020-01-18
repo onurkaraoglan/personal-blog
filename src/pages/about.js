@@ -7,9 +7,9 @@ import MeImg from '../components/me';
 const About = () => (
   <Layout>
     <SEO title="About" />
-    <p className="h1">About Me</p>
+    <h1 className="h1">About Me</h1>
     <div className="body">
-      <p style={{fontSize:20}}>👋 I'm Onur Karaoğlan, a Software Developer from Istanbul, Turkey. 
+      <p style={{fontSize:20}}><span role="img" aria-label="Hi">👋</span>  I'm Onur Karaoğlan, a Software Developer from Istanbul, Turkey. 
         I love to learn and discover all things about Web Development. 
         You can catch my code snippets on Twitter and Linkedin.
         <div style={{maxWidth:250, display: "block", margin: "20px auto"}}>

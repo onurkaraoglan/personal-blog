@@ -6,7 +6,7 @@ import { Col, Row } from 'antd';
 
 const Blog = () => (
   <div className="blog">
-    <Link style={{ margin: 10, textAlign: "center", display: "block" }} to="/blog">Blog</Link>
+    <Link className="blog" style={{ margin: 10, textAlign: "center", display: "block" }} to="/blog">Blog</Link>
     <div>
       <Row gutter={16} type="flex">
         <Col span={8} className="card">

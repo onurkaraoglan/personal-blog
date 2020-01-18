@@ -7,18 +7,21 @@ import { Col, Row } from 'antd';
 const Recommendations = () => (
   <Layout>
     <SEO title="Recommendations" />
-    <div className="angled" style={{background: "#c5c5ec"}}>
+    <div className="angled" style={{background: "#a6b1d8"}}>
       <div>
         <p>Recommendations</p>
       </div>
     </div>
-    <div style= {{width:"50%", margin:"10% auto"}}>
+    <div style= {{width:"55%", margin:"10% auto"}}>
       <Row gutter={16} type="flex">
-        <Col span={12} className="card">
-          <RecCard content="What I Use" icon="code"  style={{background: "#f7faff"}}/>
+        <Col span={8} className="card">
+          <RecCard content="What I Use" icon="code"/>
         </Col>
-        <Col span={12} className="card">
+        <Col span={8} className="card">
           <RecCard content= "Tech Stack" icon="build" />
+        </Col>
+        <Col span={8} className="card">
+          <RecCard content= "Favorite Podcasts" icon="audio" />
         </Col>
       </Row>
     </div>

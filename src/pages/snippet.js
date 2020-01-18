@@ -7,7 +7,7 @@ import { Col, Row } from 'antd';
 const Snippet = () => (
   <Layout>
     <SEO title="Snippet" />
-    <div className="angled" style={{background: "#fbe7fd"}}>
+    <div className="angled" style={{background: "#9ed9ef"}}>
       <div>
         <p>Code Snippets</p>
       </div>

@@ -10,29 +10,29 @@ const Footer = () => (
       <ul className="footerul">
         <li className="footerli">
           <a href="https://www.linkedin.com/in/onurkaraoglan/?locale=en_US" target="_blank" rel="noopener noreferrer">
-            <Icon className="footericon" type="linkedin" style={{ fontSize: '20px', color: '#ccc' }} theme="filled" />
+            <Icon className="footericon" type="linkedin" style={{ fontSize: '20px', color: '#6f6b6b' }} theme="filled" />
           </a>
         </li> 
         <li className="footerli">
           <a href="https://github.com/onurkaraoglan" target="_blank" rel="noopener noreferrer">
-            <Icon className="footericon" type="github" style={{ fontSize: '20px', color: '#ccc' }} theme="filled" />
+            <Icon className="footericon" type="github" style={{ fontSize: '20px', color: '#6f6b6b' }} theme="filled" />
           </a>
         </li>
         <li className="footerli">
           <a href="https://twitter.com/onurkaraoglan" target="_blank" rel="noopener noreferrer">
-            <Icon className="footericon" type="twitter" style={{ fontSize: '20px', color: '#ccc' }} />
+            <Icon className="footericon" type="twitter" style={{ fontSize: '20px', color: '#6f6b6b' }} />
           </a>
         </li>
         <li className="footerli">
           <a href="https://medium.com/@onurkaraoglan" target="_blank" rel="noopener noreferrer">
-            <Icon className="footericon" type="medium" style={{ fontSize: '20px', color: '#ccc' }} />
+            <Icon className="footericon" type="medium" style={{ fontSize: '20px', color: '#6f6b6b' }} />
           </a>
         </li>
-        <li className="footerli">
+        {/* <li className="footerli">
           <a href="https://www.instagram.com/okaraoglann/" target="_blank" rel="noopener noreferrer">
-            <Icon className="footericon" type="instagram" style={{ fontSize: '20px', color: '#ccc' }} />
+            <Icon className="footericon" type="instagram" style={{ fontSize: '20px', color: '#6f6b6b' }} />
           </a>
-        </li>
+        </li> */}
       </ul>
     </div>
     <div >

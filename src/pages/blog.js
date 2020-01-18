@@ -7,7 +7,7 @@ import BlogCard from '../components/blogCard';
 const Blog = () => (
   <Layout>
     <SEO title="Blog" />
-    <div className="angled" style={{background: "#04a87d"}}>
+    <div className="angled" style={{background: "#a0d6da"}}>
       <div>
         <p>Blog</p>
       </div>

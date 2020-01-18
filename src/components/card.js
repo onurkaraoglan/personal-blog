@@ -1,5 +1,6 @@
 import React from 'react'
 import { Card, Icon } from 'antd';
+import { Link } from 'gatsby'
 
 const { Meta } = Card;
 
@@ -8,10 +9,13 @@ const Cards = (props) => (
         hoverable
         style={{ maxWidth: 300, margin: "15px auto" }}
         cover={
-            <img
-                alt="example"
-                src={props.imgsrc}
-            />
+                <Link to={props.insitelink}> 
+                    <img 
+                        alt="Onur Karaoğlan" 
+                        style={{width: "100%"}} 
+                        src={props.imgsrc} 
+                    /> 
+                </Link>                
         }
         actions={[
             <a href={props.linkedinlink} target="_blank" rel="noopener noreferrer">
@@ -23,7 +27,7 @@ const Cards = (props) => (
             </a>
         ]}
     >
-        <Meta
+        <Meta style={{cursor:"default"}}
             title={props.title}
             description={props.description}
         />

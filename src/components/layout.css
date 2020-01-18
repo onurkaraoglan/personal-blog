@@ -21,6 +21,16 @@ p {
   font-size: 16px;
 }
 
+pre {
+	font-size: 12px;
+	line-height: 20px;
+	padding: 10px;
+  background-color: #f5f2f0;
+  color: #666;
+  border: 1px solid #dddbcc;
+  border-radius: 3px;
+}
+
 .angled {
   width:120%;
   margin-top:-5%;
@@ -50,13 +60,16 @@ p {
 
 .h1 {
   font-size: 35px;
-  padding-top: 3%;
+  padding-top: 2%;
   margin-left: 2%;
+  font-family: georgia, serif;
+  font-weight: normal;
 }
 .index {
   text-align: center;
   font-weight: 300;
   font-size: 60px;
+  color: #0e4b7f;
 }
 
 div.job {
@@ -64,32 +77,56 @@ div.job {
   border-bottom-style: solid;
   border-bottom-width: 20px;
   text-align: center;
-  border-image: linear-gradient(to right, yellow 50%, darkblue 50%, darkblue 100%)2;
-  
+  /* border-image: linear-gradient(to right, yellow 50%, darkblue 50%, darkblue 100%)2; */
+  border-color: #0f4b80;
 }
 
 div.snippets {
-  background: #fbe7fd;
-  border-top-color: #e567f4;
+  background: #9ed9ef;
+  border-top-color: #0f4b80;
   border-top-width: 8px;
   border-top-style: solid;
   margin-bottom: 60px;
+}
+
+.snippets a {
+  color: #0f4b80;
+}
+
+.snippets a:hover {
+  color: #042440;
 }
 
 div.blog {
-  background: #04a87d;
-  border-top-color: #025d45;
+  background: #a0d6da;
+  border-top-color: #0f4b80;
   border-top-width: 8px;
   border-top-style: solid;
   margin-bottom: 60px;
 }
 
+.blog a {
+  color: #0f4b80;
+}
+
+.blog a:hover {
+  color: #042440;
+}
+
 div.rec {
-  background: #c5c5ec;
-  border-top-color: #7373f3;
+  background: #a6b1d8;
+  border-top-color: #0f4b80;
   border-top-width: 8px;
   border-top-style: solid;
   margin-bottom: 60px;
+}
+
+.rec a {
+  color: #0f4b80;
+}
+
+.rec a:hover {
+  color: #042440;
 }
 
 div.body {width: 70% !important}
@@ -100,19 +137,20 @@ div.body {width: 70% !important}
   max-width: 200px; 
   max-height: 200px; 
   margin: 15px auto !important;
-  /* box-sizing: border-box; */
-  border: 3px solid transparent !important;
+  border: 2px solid #fff  !important;
+  outline: 1px solid #c9e9f6;
   background: white;
 }
 .reccard:hover {
-  border: 2px solid #7373f3 !important;
+  border: 2px solid #0e4b7f !important;
   z-index: 999;
 }
 
 .reccard p {
   text-align: center; 
   font-weight: bold;
-  color: #7373f3;
+  color: #0e4b7f;
+  margin: 0px 20px 0px 20px !important;
 }
 
 @media screen and (max-width: 900px) {
@@ -183,7 +221,7 @@ div.content {
   margin-left: 250px;
   bottom: 0;
   padding: 2.5rem;
-  background-color: #efefef;
+  background-color: #dedede;
   text-align: center;
 }
 
@@ -230,11 +268,11 @@ a:hover {
 } */
  a {
   font-size: 20px;
-  color: #646464 !important;
+  color: #646464;
 }
 
  a:hover {
-  color: #663399 !important;
+  color: #1c3346;
 }
 abbr[title] {
   border-bottom: none;

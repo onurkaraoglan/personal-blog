@@ -25,7 +25,7 @@ ul.contact {
   }
 
 .icon svg:hover {
-    color: #663399;
+    color: #1c3346;
 }
 
 .center {
@@ -37,5 +37,14 @@ ul.contact {
 .center p {
     font-size: 20px;
 }
+
+
+@media screen and (max-width: 450px) {
+  /* div.body {width: 100% !important} */
+  ul.contact {
+    margin-left: 1.45rem;
+  }
+}
+
 
 
