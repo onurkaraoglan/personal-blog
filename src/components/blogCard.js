@@ -11,6 +11,7 @@ const BlogCards = (props) => (
             <img
                 alt="example"
                 src={props.imgsrc}
+                style={{height:150, objectFit:"cover"}}
             />
         }
         actions={[
